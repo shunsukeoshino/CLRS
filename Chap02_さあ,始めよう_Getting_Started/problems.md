@@ -120,10 +120,11 @@ $$
 
 > 次の擬似コード(の断片)は, 係数 $a_0, a_1, \cdots, a_n$ と $x$ の値が与えられたとき多項式
 >
-> $\begin{matrix}
+> $$\begin{matrix}
 P(x) & = & \sum\limits_{k=0}^{n}a_{k} x^{k} \\\\
  & = & a_0 + x(a_1 + x(a_2 + \cdots + x(a_{n-1} + xa_n)\cdots))
-\end{matrix}$
+\end{matrix}
+$$
 >
 > の値を求めるためのHorner(ホーナー)の公式を実現したものである. 
 >
@@ -133,7 +134,7 @@ P(x) & = & \sum\limits_{k=0}^{n}a_{k} x^{k} \\\\
 > 3     y = ai + x y
 >```
 
-> __*a*__. Hornerの公式に対するこの擬似コードの実行時間を $\Theta$ 記法を用いて示せ. 
+> __*a*__. Hornerの公式に対するこの擬似コードの実行時間を $\Theta$ 記法を用いて示せ.  
 
 * $\Theta(n)$
 
