@@ -156,9 +156,14 @@ Merge_sort(A, 0, len(A)-1)
 ***
 > nが2のベキ乗のとき, 漸化式
 > 
-> $$T(n)=\left\{\begin{matrix}2 & \text{n=2のとき}\;  \\ 2T(n/2) + n & \text{k>1に対して}\; n = 2^k \text{のとき}\;\end{matrix}\right.$$
+> $$
+T(n)=\begin{cases}
+2 & \text{n = 2のとき}  \\
+2T(n/2) + n & \text{k > 1に対して} n = 2^k \text{のとき} 
+\end{cases}
+$$
 > 
-> の解が $T(n)=n\lg n$. であることを数学的帰納法を用いて示せ. 
+> の解が $T(n)=n\lg n$. であることを数学的帰納法を用いて示せ.
 
 数学的帰納法を用いて証明するプロセスは以下のように進められます：
 
