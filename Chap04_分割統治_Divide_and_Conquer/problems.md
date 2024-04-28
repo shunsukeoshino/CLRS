@@ -162,6 +162,7 @@ $\therefore$ $T(n)=\Theta(n \lg \lg n)$
                & = & 0 + z + z^2 + 2z^3 + 3z^4 + 5z^5 + 8z^6 + 13z^7 + 21z^8+\dots
 \end{array}
 $$
+
 > で定義する .ただし， $\mathcal{F}_i$ ,は $i$ 番目のフィボナッチ数である 
 
 > __*a*__. $\mathcal{F}(z) = z + z \mathcal{F}(z) + z^2\mathcal{F}(z)$ であることを示せ.
