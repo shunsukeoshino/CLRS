@@ -1,10 +1,19 @@
 ## 4.2 行列積のためのStrassenのアルゴリズム
 
-### 4.2-1
+### 4.2-1
 ***
 > 行列積
 >
-> $\begin{pmatrix} 1 & 3 \\ 7 & 5 \end{pmatrix}\begin{pmatrix} 6 & 8 \\ 4 & 2 \end{pmatrix}$
+> $$
+\begin{pmatrix}
+1 & 3 \\
+7 & 5
+\end{pmatrix}
+\begin{pmatrix}
+6 & 8 \\
+4 & 2
+\end{pmatrix}
+$$
 >
 > をStrasenのアルゴリズムを用いて計算せよ. 計算過程を説明せよ. 
 
