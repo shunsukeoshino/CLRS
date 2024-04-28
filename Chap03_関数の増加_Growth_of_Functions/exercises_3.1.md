@@ -43,39 +43,39 @@ $$\max(f(n), g(n)) = \Theta(f(n) + g(n))$$
 > 任意の実定数 $ a $ と実正定数 $ b>0 $ に対して $ (n+a)^b=\Theta(n^b) $ であることを示せ. 
 
 関数 $h(n) = (n+a)^b$ が $\Theta(g(n))$、ここで $g(n) = n^b$、であるためには、正の定数 $c_1, c_2$ および自然数 $n_0$ が存在し、すべての $n \geq n_0$ において
-$$
-c_1 n^b \leq (n+a)^b \leq c_2 n^b
-$$
+
+$$c_1 n^b \leq (n+a)^b \leq c_2 n^b$$
+
 が成立する必要があります。
 
 **上限**: 
-$$
-(n+a)^b = n^b \left(1 + \frac{a}{n}\right)^b \approx n^b \left(1 + b \frac{a}{n}\right)
-$$
-上記から、定数 $c_2 > 1$ を選べば、$(n+a)^b \leq c_2 n^b$ が成立します。
+
+$$(n+a)^b = n^b \left(1 + \frac{a}{n}\right)^b \approx n^b \left(1 + b \frac{a}{n}\right)$$
+
+上記から、定数 $c_2 > 1$ を選べば、 $(n+a)^b \leq c_2 n^b$ が成立します。
 
 **下限**: 
-$$
-(n+a)^b \geq n^b
-$$
-を使用し、定数 $c_1 = 1$ を選べば、$(n+a)^b \geq c_1 n^b$ が成立します。
+
+$$(n+a)^b \geq n^b$$
+
+を使用し、定数 $c_1 = 1$ を選べば、 $(n+a)^b \geq c_1 n^b$ が成立します。
 
 これにより、十分大きな $n$ に対して $(n+a)^b = \Theta(n^b)$ が示されます。
 
 ### **【別解】**
 
 
-$a$ は実定数で、$b > 0$ は実正定数です。$n^b$ に対する $(n+a)^b$ の振る舞いを比較します。
+$a$ は実定数で、 $b > 0$ は実正定数です。$n^b$ に対する $(n+a)^b$ の振る舞いを比較します。
 
 まず、次のような不等式を考えます：
-$$
-(n+a)^b = n^b \left(1 + \frac{a}{n}\right)^b
-$$
-ビネの公式または二項展開により、$\left(1 + \frac{a}{n}\right)^b$ は $n$ が大きくなるにつれて 1 に収束します。正確には、
-$$
-\left(1 + \frac{a}{n}\right)^b \sim 1 + b\frac{a}{n}
-$$
-であり、これは $n \to \infty$ で $1$ に収束するため、$(n+a)^b = \Theta(n^b)$ が成立します。
+
+$$(n+a)^b = n^b \left(1 + \frac{a}{n}\right)^b$$
+
+ビネの公式または二項展開により、 $\left(1 + \frac{a}{n}\right)^b$ は $n$ が大きくなるにつれて 1 に収束します。正確には、
+
+$$\left(1 + \frac{a}{n}\right)^b \sim 1 + b\frac{a}{n}$$
+
+であり、これは $n \to \infty$ で $1$ に収束するため、 $(n+a)^b = \Theta(n^b)$ が成立します。
 
 ### 3.1-3
 ***
