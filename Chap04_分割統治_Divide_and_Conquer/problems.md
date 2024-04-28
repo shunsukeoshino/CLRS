@@ -155,7 +155,8 @@ $\therefore$ $T(n)=\Theta(n \lg \lg n)$
 ***
 
 > 漸化式(3.2)で定義されるフィボナッチ数の性質を本問題では検討する. ここではフィポナッチ漸化式を解くのに母関数を用いる. 母関数(generatingfunction)(または形式的ペキ級数(formalpowerseries): $\mathcal{F}$ を
->  $$
+>
+> $$
 \begin{array}{lll}
 \mathcal{F}(z) & = & \sum_{i=0}^\infty F_i z^i \\
                & = & 0 + z + z^2 + 2z^3 + 3z^4 + 5z^5 + 8z^6 + 13z^7 + 21z^8+\dots
