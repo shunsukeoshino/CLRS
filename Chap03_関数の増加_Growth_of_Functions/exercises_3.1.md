@@ -138,17 +138,14 @@ $o(g(n))$ は $g(n)$ よりも厳密に遅く増加する関数の集合を示�
 > 
 > を表す. $\Omega(g(n,m))$ と $\Theta(g(n,m))$ について対応する定義を求めよ.
 
-与えられた定義に基づき、$O(g(n,m))$ は次のように定義されます：
-$$
-O(g(n,m))= \{f(n,m) : \exists c > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } 0 \le f(n,m) \le c g(n,m)\}
-$$
+与えられた定義に基づき、 $O(g(n,m))$ は次のように定義されます：
+
+$$O(g(n,m))= \{f(n,m) : \exists c > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } 0 \le f(n,m) \le c g(n,m)\}$$
 
 **$\Omega(g(n,m))$ の定義**:
-$$
-\Omega(g(n,m))= \{f(n,m) : \exists c > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } 0 \le c g(n,m) \le f(n,m)\}
-$$
+
+$$\Omega(g(n,m))= \{f(n,m) : \exists c > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } 0 \le c g(n,m) \le f(n,m)\}$$
 
 **$\Theta(g(n,m))$ の定義**:
-$$
-\Theta(g(n,m))= \{f(n,m) : \exists c_1 > 0, c_2 > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } c_1 g(n,m) \le f(n,m) \le c_2 g(n,m)\}
-$$
+
+$$\Theta(g(n,m))= \{f(n,m) : \exists c_1 > 0, c_2 > 0, n_0, m_0 \text{ で } n \ge n_0 \text{ または } m \ge m_0 \text{ を満たすすべての } n, m \text{ に対して } c_1 g(n,m) \le f(n,m) \le c_2 g(n,m)\}$$
