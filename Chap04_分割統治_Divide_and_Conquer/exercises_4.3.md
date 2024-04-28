@@ -74,7 +74,9 @@ $n = 1$ のとき, $T(n) = 0 + 1 = 1$ より成立.
 ***
 > マージソートに対する“正確”な漸化式(4.3)の解が $\Theta(n\lg n)$ であることを示せ.
 
-漸化式(4.3): $$
+漸化式(4.3): 
+
+$$
 T(n)=\begin{cases}
 \Theta(1) & \text{if } n = 1 \\
 T(\left \lceil n / 2 \right \rceil) + T(\left \lfloor n / 2 \right \rfloor) + \Theta(n) & \text{if } n > 1
